@@ -1,0 +1,63 @@
+.hero-wrap {
+  min-height: 320px;
+  background-color: #d7ced5;
+  color: #3f3c32;
+}
+.hero-row { 
+    align-items: center; 
+    padding: 0;
+}
+
+.hero-text { padding: 2rem 2rem 2rem 0; }
+.hero-image-col { padding: 0; }
+.hero-image-col .hero-img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block;
+}
+/* Ensure text inside the selected column uses the requested color */
+.col { 
+  color: #3f3c32;
+  text-align: center;
+}
+/* Carousel background images */
+.carousel-bg-img {
+  height: 500px;
+  object-fit: cover;
+}
+/* Carousel text color and alignment */
+.carousel-caption { 
+  color: #3f3c32 !important; 
+  text-align: left !important;
+}
+/* larger hero area on bigger screens */
+@media (min-width: 768px) {
+.hero-wrap { min-height: 420px; }
+}
+/* Contact section background */
+.reach-out-section * {
+  background-color: #d7ced5 !important;
+  color: #3f3c32 !important;
+}
+
+.reach-out-section .btn-primary {
+  background-color: #3f3c32 !important;
+  color: #d7ced5 !important;
+  border: 0;
+}
+
+.footer-class {
+  background-color: #3f3c32;
+  color: #d7ced5;
+}
+
+.footer-class .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-class svg {
+  fill: #d7ced5;
+}
